@@ -3,7 +3,7 @@ html, body {        height: 100%; }
 body {              width: 100%; overflow: hidden; font-family: "Tahoma", Arial; }
 
 h1 {              	color: #2C9CA7; font-size: 45px; margin-top: 150px; }
-h2 {              	color: #205055; font-size: 25px; margin-top: 20px; margin-bottom: 30px; }
+h2 {              	color: #205055; font-size: 25px; margin-top: 10px; margin-bottom: 30px; }
 
 p {                	color: #555555; font-size: 14px; line-height: 25px; margin-bottom: 30px; }
 
@@ -15,12 +15,12 @@ a:hover {           margin-top: 1px; color: #1DA5B2; }
 
 #mainWrapper {      position: relative; width: 640px; margin: 0 auto; padding-left:140px;float: left; }
 
-span.icon { 		font-family: 'WebSymbolsRegular'; }
+div.icon { 		font-family: 'WebSymbolsRegular'; display: inline; width: 40px;}
 
 ul#links { 			list-style-type: none; }
 ul#links li {		margin-right: 10px; display: inline; }
-ul#links li span.icon { color: #afafaf;}
-ul#links li:hover span.icon { color: #333333;}
+ul#links li div.icon { color: #afafaf;}
+ul#links li:hover div.icon { color: #333333;}
 
 
 @font-face {
