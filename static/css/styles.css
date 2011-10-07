@@ -15,12 +15,14 @@ a:hover {           margin-top: 1px; color: #1DA5B2; }
 
 #mainWrapper {      position: relative; width: 640px; margin: 0 auto; padding-left:140px;float: left; }
 
-div.icon { 		font-family: 'WebSymbolsRegular'; display: inline; width: 40px;}
+div.icon { 			font-family: 'WebSymbolsRegular'; display: inline; color: #555555; }
 
-ul#links { 			list-style-type: none; }
-ul#links li {		margin-right: 10px; display: inline; }
-ul#links li div.icon { color: #afafaf;}
-ul#links li:hover div.icon { color: #333333;}
+#links { 			list-style-type: none; }
+#links li {			margin-right: 10px; display: inline; }
+#links li div.icon { color: #afafaf;}
+#links li:hover div.icon { color: #333333; }
+
+#contacts { 		list-style-type: none; }
 
 
 @font-face {
