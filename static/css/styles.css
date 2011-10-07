@@ -3,9 +3,9 @@ html, body {        height: 100%; }
 body {              width: 100%; overflow: hidden; font-family: "Tahoma", Arial; }
 
 h1 {              	color: #2C9CA7; font-size: 45px; margin-top: 150px; }
-h2 {              	color: #205055; font-size: 25px; margin-top: 10px; margin-bottom: 30px; }
+h2 {              	color: #205055; font-size: 25px; margin-top: 10px; margin-bottom: 50px; }
 
-p {                	color: #555555; font-size: 14px; line-height: 25px; margin-bottom: 30px; }
+p {                	color: #555555; font-size: 14px; line-height: 25px; margin-bottom: 40px; }
 
 a {                	color: #205055; font-weight: bold; }
 a:hover {           margin-top: 1px; color: #1DA5B2; }
@@ -23,6 +23,7 @@ div.icon { 			font-family: 'WebSymbolsRegular'; display: inline; color: #555555;
 #links li:hover div.icon { color: #333333; }
 
 #contacts { 		list-style-type: none; }
+#contacts li {		line-height: 28px; }
 
 
 @font-face {
