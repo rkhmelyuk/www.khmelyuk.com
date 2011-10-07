@@ -2,9 +2,6 @@
 html, body {        height: 100%; }
 body {              width: 100%; overflow: hidden; font-family: "Tahoma", Arial; }
 
-img {              	vertical-align: middle; }
-
-
 h1, h2 {            text-transform: uppercase; }
 h1 {              	color: #2C9CA7; font-size: 45px; margin-top: 150px; }
 h2 {              	color: #205055; font-size: 25px; margin-top: 20px; margin-bottom: 30px; }
