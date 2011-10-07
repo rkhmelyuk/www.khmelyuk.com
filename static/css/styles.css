@@ -19,7 +19,7 @@ div.icon { 			font-family: 'WebSymbolsRegular'; display: inline; color: #555555;
 
 #links { 			list-style-type: none; }
 #links li {			margin-right: 10px; display: inline; }
-#links li div.icon { color: #afafaf;}
+#links li div.icon { color: #999999;}
 #links li:hover div.icon { color: #333333; }
 
 #contacts { 		list-style-type: none; }
