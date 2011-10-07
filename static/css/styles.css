@@ -18,5 +18,3 @@ a:hover {           margin-top: 1px; color: #1DA5B2; }
 					overflow: auto; z-index: 50; display: block; }
 
 #mainWrapper {      position: relative; width: 640px; margin: 0 auto; padding-left:140px;float: left;}
-
-#sideBG { 			float: right; padding: 80px 60px 0 0; }
