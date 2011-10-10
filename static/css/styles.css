@@ -1,6 +1,6 @@
 * { 				margin: 0; padding: 0; }
 html, body {        height: 100%; }
-body {              width: 100%; overflow: hidden; font-family: "Tahoma", Arial; }
+body {              width: 100%; overflow: hidden; font-family: "Tahoma", Arial; background: url(../image/noisy.png); }
 
 h1 {              	color: #2C9CA7; font-size: 45px; margin-top: 150px; }
 h2 {              	color: #205055; font-size: 25px; margin-top: 10px; margin-bottom: 50px; }
