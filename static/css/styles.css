@@ -2,40 +2,75 @@
 html, body {        height: 100%; }
 body {              width: 100%; overflow: hidden; 
 					font-family: "Tahoma", Arial; 
-					background: url(../image/paper_3.png);
-					text-shadow: 1px 1px 1px #ffffff; } 
+					background: url(../image/paper_3.png); } 
 
-h1 {              	color: #2C9CA7; font-size: 45px; margin-top: 150px; }
-h2 {              	color: #357075; font-size: 25px; margin-top: 5px; margin-bottom: 60px; }
+h1 {              	color: #fefefe; font-size: 45px; margin: 8px 0; text-shadow: 1px 1px 1px #000000; }
+h2 {              	color: #efefef; font-size: 23px; margin: 8px 0; font-weight: normal; text-shadow: 1px 1px 1px #000000;}
 
-p {                	color: #555555; font-size: 14px; line-height: 25px; margin-bottom: 40px; }
+#wrapper {          position: absolute; left: 0; top: 0; width: 100%; height: 100%; 
+                    overflow: auto; z-index: 50; display: block;} 
 
-a {                	color: #306065; font-weight: bold; text-decoration: none; }
-a:hover {           margin-top: 1px; color: #205055; text-decoration: underline; }
+#mainWrapper {      position: relative; width: 700px; margin-left:140px; 
+                    background-color: #fefefe; box-shadow: 0 0 20px #aaaaaa;
+                    border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
 
-#wrapper {          position: absolute; left: 0; top: 0; width: 100%; height: 100%; min-width: 1000px; 
-					overflow: auto; z-index: 50; display: block; }
+#header { 
+    padding: 0 30px; 
+    border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
 
-#mainWrapper {      position: relative; width: 640px; margin: 0 auto; padding-left:140px;float: left; }
-
-div.icon { 			font-family: 'WebSymbolsRegular'; display: inline; color: #555555; }
-
-#links { 			list-style-type: none; }
-#links li {			margin-right: 10px; display: inline; }
-#links li div.icon { color: #999999;}
-#links li:hover div.icon { color: #333333; }
-
-#contacts { 		list-style-type: none; }
-#contacts li {		line-height: 28px; }
-
-
-@font-face {
-    font-family: 'WebSymbolsRegular';
-    src: url('../font/websymbols-regular-webfont.eot');
-    src: url('../font/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/websymbols-regular-webfont.woff') format('woff'),
-         url('../font/websymbols-regular-webfont.ttf') format('truetype'),
-         url('../font/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    background-color: #343434;
+    background-image: linear-gradient(top, #343434, #181818);
+    background-image: -o-linear-gradient(top, #343434, #181818);
+    background-image: -moz-linear-gradient(top, #343434, #181818);
+    background-image: -webkit-linear-gradient(top, #343434, #181818);
+    background-image: -ms-linear-gradient(top, #343434, #181818);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#343434', endColorstr='#181818');
 }
+.bottom { height: 20px; width: 100%; background: url(../image/bottom_shadow.png) repeat-x; }
+#content { padding: 0 30px; }
+
+.clear { clear: both; }
+
+div.twoColumn div.section:first-child { margin-right: 20px; }
+div.twoColumn div.section { width: 310px; float: left; }
+
+div.section.top_height { height: 160px; }
+
+div.section {                	
+    background-color: white;
+    border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+
+    color: #333333; 
+    font-size: 14px; 
+    line-height: 22px; 
+    margin-bottom: 30px; 
+    box-shadow: 0 1px 10px #aaaaaa;
+}
+
+div.title {
+    background: #444444;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0; 
+    -moz-border-radius: 8px 8px 0 0;
+    text-shadow: 1px 0 1px #111111; 
+}
+
+div.content { padding: 8px;  }
+div.content img { float: left; padding-right: 5px; }
+div.contact-title { font-size: 11px; font-weight: bold; 
+                    width: 80px; float: left; text-transform: uppercase;}
+
+a {                	color: #073594; text-decoration: none; }
+a:hover {           margin-top: 1px; color: #073594; text-decoration: underline; }
+
+.height_25 { height: 25px;}
+.height_50 { height: 50px;}
+
+.project { padding: 8px 0; font-size: 13px; line-height: 19px; color: #444444;}
+.project img { float: left; margin-right: 10px;}
+.project h4 { padding: 15px 0; }
+
+.post { padding: 5px 0; font-size: 13px; line-height: 19px; color: #444444; }
+.post h4 { padding: 4px 0; font-size: 15px;}

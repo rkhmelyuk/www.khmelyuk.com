@@ -25,28 +25,134 @@
   <body>
     <div id="wrapper">
       <div id="mainWrapper">
-        <div>
-          <h1>Ruslan Khmelyuk</h1>
-          <h2>Software Engineer</h2>
-
-          <p>
-            <ul id="links"> 
-              <li><div class="icon">r</div> <a href="http://blog.khmelyuk.com">Blog</a></li>
-              <li><div class="icon">t</div> <a href="http://twitter.com/rkhmelyuk">Twitter</a></li>
-              <li><div class="icon">U</div> <a href="https://github.com/rkhmelyuk">GitHub</a></li>
-              <li><div class="icon">l</div> <a href="http://ua.linkedin.com/in/rkhmelyuk">LinkedIn</a></li>
-              <li><div class="icon">g</div> <a href="https://plus.google.com/u/0/101907616301575505579">Google+</a></li>
-            </ul>
-          </p>
-
-          <p>  
-            <ul id="contacts">
-              <li>Email: <a href="mailto:ruslan@khmelyuk.com">ruslan@khmelyuk.com</a></li>
-              <li>Phone: +38 096 8431390</li>
-              <li>Skype: ruslan.khmelyuk</li>
-            </ul>
-          </p>        
+        <div id="header">
+            <div class="height_50"></div>
+            <h1>Ruslan Khmelyuk</h1>
+            <h2>Software Engineer</h2>
+            <div class="height_50"> </div>
         </div>
+        <div id="content">
+          <div class="height_25"> </div>
+
+          <div class="twoColumn">
+            <div class="section top_height">
+              <div class="title"><h4 id="social">Social Links</h4></div>
+              <div class="content">
+                <img src="/static/image/blog.png"/>
+                <div class="contact-title">Blog</div> <a href="http://blog.khmelyuk.com">blog.khmelyuk.com</a><br/>
+
+                <img src="/static/image/twitter.png"/>
+                <div class="contact-title">Twitter</div> <a href="http://twitter.com/rkhmelyuk">twitter.com/rkhmelyuk</a><br/>
+
+                <img src="/static/image/github.png"/>
+                <div class="contact-title">GitHub</div> <a href="https://github.com/rkhmelyuk">github.com/rkhmelyuk</a><br/>
+
+                <img src="/static/image/linkedin.png"/>
+                <div class="contact-title">LinkedIn</div> <a href="http://linkedin.com/in/rkhmelyuk">linkedin.com/in/rkhmelyuk</a><br/>
+
+                <img src="/static/image/google+.png"/>
+                <div class="contact-title">Google+</div> <a href="https://plus.google.com/u/0/101907616301575505579">gplus.to/rkhmelyuk</a>
+              </div>
+            </div>
+
+            <div class="section top_height">  
+              <div class="title"><h4 id="contacts">Contact</h4></div>
+              <div class="content">
+                <div class="contact-title">Email</div> <a href="mailto:ruslan@khmelyuk.com">ruslan@khmelyuk.com</a><br/>
+                <div class="contact-title">Phone</div> +38 096 8431390<br/>
+                <div class="contact-title">Skype</div> ruslan.khmelyuk<br/>
+              </div>
+            </div>  
+            
+            <div class="clear"></div>      
+          </div>
+
+          <div class="section">
+            <div class="title"><h4 id="projects">Projects</h4></div>
+            <div class="content">
+              <div class="project">
+                <img src="/static/image/synctab-icon.png" alt='Icon'/>
+                <h3><a href="http://synctab.khmelyuk.com">SyncTab</a></h3>
+                 SyncTab is a simple way to send your links from Android phone to your favourite desktop browser.
+                 SyncTab opens a shared link as a new tab in your browser. Thus, you don't need to use
+                 bookmark services or email to view the page in desktop browser.
+                 <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="twoColumn">
+
+            <div class="section">
+              <div class="title"><h4 id="projects">Recent Posts</h4></div>
+              <div class="content">
+                <div class="post">
+                  <h4>Mobile website with jQuery Mobile</h4>
+                  <p>
+                    In this post I describe how create a mobile website using jQuery Mobile and some best practices.
+
+                    <a href="http://blog.khmelyuk.com/2011/11/mobile-website-with-jquery-mobile.html">Read article</a>
+                    </p>
+                </div>
+                <div class="post">
+                  <h4>Mobile website with Django</h4>
+                  <p>
+                    In this post I describe how to create a mobile version of website using Django.
+
+                    <a href="http://blog.khmelyuk.com/2011/11/mobile-website-with-django.html">Read article</a>
+                    </p>
+                </div>
+
+                <div class="post">
+                  <h4>Django: use global variables on rendering templates</h4>
+                  <p>
+                    In this post I describe how to using content providers to populate global values.
+
+                    <a href="http://blog.khmelyuk.com/2011/10/django-use-global-variables-on.html">Read article</a>
+                    </p>
+                </div>
+                <div style="font-size: 13px; text-align: right"><a href="http://blog.khmelyuk.com">More <small>&gt;&gt;</small></a></div>
+                
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="title"><h4 id="projects">Recent Tweets</h4></div>
+              <div class="content">
+                <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 4,
+                  interval: 30000,
+                  width: 'auto',
+                  height: 300,
+                  theme: {
+                    shell: {
+                      background: '#efefef',
+                      color: '#222222'
+                    },
+                    tweets: {
+                      background: '#ffffff',
+                      color: '#222222',
+                      links: '#073594'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: false,
+                    live: false,
+                    behavior: 'all'
+                  }
+                }).render().setUser('rkhmelyuk').start();
+                </script>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>  
+        <div>&nbsp;</div>
       </div>
       
     </div>
