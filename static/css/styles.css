@@ -98,6 +98,5 @@ a:hover {           margin-top: 1px; color: #073594; text-decoration: underline;
 
 .tabs a:hover { 
     text-decoration: none;
-    color: white; 
-    background-color: #2D6134;
+    background-color: #83D48F;
 }
