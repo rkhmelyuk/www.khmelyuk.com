@@ -77,26 +77,14 @@ a:hover {           margin-top: 1px; color: #073594; text-decoration: underline;
 
 .tabs { float: right;}
 .tabs a { 
-    padding: 5px 8px; 
-    color: white; 
-    color: #1C291E; 
-    font-size: 1.1em;
-    text-decoration: none;
-
-    background-color: #000000;
-
-    border-radius: 4px;
-    -webkit-border-radius: 4px; 
-    -moz-border-radius: 4px;
+    padding: 5px 8px; color: white;  color: #1C291E; font-size: 1.1em;
+    text-decoration: none; background-color: #000000;
     text-shadow: 1px 0 1px #6DB077; 
+    border-radius: 4px; -webkit-border-radius: 4px;  -moz-border-radius: 4px; 
 }
+.tabs a:hover { text-decoration: none; background-color: #83D48F; }
 
 .tabs a.blog { background-color: #6DB077; }
 .tabs a.twitter { background-color: #6DB077; }
 .tabs a.gplus { background-color: #6DB077; }
 .tabs a.github { background-color: #6DB077; }
-
-.tabs a:hover { 
-    text-decoration: none;
-    background-color: #83D48F;
-}
