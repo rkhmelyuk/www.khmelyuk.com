@@ -10,35 +10,32 @@ h2 {              	color: #efefef; font-size: 23px; margin: 8px 0; font-weight: 
 #wrapper {          position: absolute; left: 0; top: 0; width: 100%; height: 100%; 
                     overflow: auto; z-index: 50; display: block;} 
 
-#mainWrapper {      position: relative; width: 700px; margin-left:140px; 
-                    background-color: #fefefe; box-shadow: 0 0 20px #aaaaaa;
-                    border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;}
+#mainWrapper {      position: relative; width: 700px; margin: auto; 
+                    background-color: #fefefe; box-shadow: 0 0 20px #aaaaaa;}
 
 #header { 
     padding: 10px 30px; 
-    border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
 
-    background-color: #343434;
-    background-image: linear-gradient(top, #343434, #181818);
-    background-image: -o-linear-gradient(top, #343434, #181818);
-    background-image: -moz-linear-gradient(top, #343434, #181818);
-    background-image: -webkit-linear-gradient(top, #343434, #181818);
-    background-image: -ms-linear-gradient(top, #343434, #181818);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#343434', endColorstr='#181818');
+    background-color: #444444;
+    background-image: linear-gradient(top, #444444, #222222);
+    background-image: -o-linear-gradient(top, #444444, #222222);
+    background-image: -moz-linear-gradient(top, #444444, #222222);
+    background-image: -webkit-linear-gradient(top, #444444, #222222);
+    background-image: -ms-linear-gradient(top, #444444, #222222);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#222222');
 }
 .bottom { height: 20px; width: 100%; background: url(../image/bottom_shadow.png) repeat-x; }
-#content { padding: 0 30px; }
+#content { padding: 0 20px; }
 
 .clear { clear: both; }
 
 div.twoColumn div.section:first-child { margin-right: 20px; }
-div.twoColumn div.section { width: 310px; float: left; }
+div.twoColumn div.section { width: 320px; float: left; }
 
 div.section.top_height { height: 160px; }
 
 div.section {                	
     background-color: white;
-    border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px;
 
     color: #333333; 
     font-size: 14px; 
@@ -51,9 +48,6 @@ div.title {
     background: #444444;
     color: #ffffff;
     padding: 5px 8px;
-    border-radius: 8px 8px 0 0;
-    -webkit-border-radius: 8px 8px 0 0; 
-    -moz-border-radius: 8px 8px 0 0;
     text-shadow: 1px 0 1px #111111; 
 }
 
